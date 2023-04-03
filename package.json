@@ -1,0 +1,28 @@
+{
+  "name": "lavendeux_extension",
+  "version": "0.5.0",
+  "description": "CLI Assistant to help with building and testing Lavendeux extensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rscarson/lavendeux-extension.git"
+  },
+  "author": "rscarson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rscarson/lavendeux-extension/issues"
+  },
+  "homepage": "https://github.com/rscarson/lavendeux-extension#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0",
+    "fs-extra": "^11.1.1",
+    "prompt-sync": "^4.2.0"
+  },
+  "bin": {
+    "lavendeux-extension": "./src/index.js"
+  }
+}

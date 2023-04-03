@@ -1,0 +1,17 @@
+{
+  "name": "<NAME>",
+  "extensionName": "<SHORTDESC>",
+  "version": "1.0.0",
+  "author": "<AUTHOR>",
+  "description": "A Lavendeux extension generated with lavendeux-extension",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest"
+  },
+
+  "devDependencies": {
+    "vite": "^4.2.1",
+    "vitest": "^0.29.7"
+  }
+}
